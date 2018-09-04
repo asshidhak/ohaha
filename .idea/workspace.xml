@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="920afffb-e8e9-444d-b698-bc67aec375a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/api/host/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/host/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/host/handler.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
@@ -113,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/app.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="328">
+              <caret line="37" selection-start-line="37" selection-end-line="38" selection-end-column="16" />
               <folding>
                 <element signature="e#13#76#0" expanded="true" />
               </folding>
@@ -199,11 +199,11 @@
         <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/app/config.go" />
-        <option value="$PROJECT_DIR$/app/app.go" />
         <option value="$PROJECT_DIR$/api/host/host.go" />
         <option value="$PROJECT_DIR$/api/http.go" />
         <option value="$PROJECT_DIR$/route.go" />
         <option value="$PROJECT_DIR$/api/host/handler.go" />
+        <option value="$PROJECT_DIR$/app/app.go" />
       </list>
     </option>
   </component>
@@ -214,8 +214,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="93" />
-    <option name="y" value="226" />
+    <option name="x" value="475" />
+    <option name="y" value="208" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
@@ -243,6 +243,11 @@
               <item name="ohaha" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="host" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ohaha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ohaha" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -329,7 +334,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="93" y="226" width="1750" height="970" extended-state="0" />
+    <frame x="475" y="208" width="1750" height="970" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20591716" />
@@ -410,13 +415,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../github.com/gin-gonic/gin/utils.go" />
-    <entry file="file://$PROJECT_DIR$/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Go/src/database/sql/sql.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19418">
@@ -428,23 +426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="e#13#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -475,6 +456,30 @@
           <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
           <folding>
             <element signature="e#14#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="37" selection-start-line="37" selection-end-line="38" selection-end-column="16" />
+          <folding>
+            <element signature="e#13#76#0" expanded="true" />
           </folding>
         </state>
       </provider>

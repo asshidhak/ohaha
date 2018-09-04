@@ -31,12 +31,12 @@ func init() {
 	db := &sql.DB{}
 	db, err = sql.Open("mysql", dataSource)
 	if err != nil {
-		panic(err)
-		return
+		//panic(err)
+		//return
 	}
 	if err = db.Ping(); err != nil {
-		panic(err)
-		return
+		//panic(err)
+		//return
 	}
 
 	Db = db
