@@ -1,11 +1,11 @@
 package host
 
 import (
+	"github.com/asshidhak/ohaha/api"
+	"github.com/asshidhak/ohaha/app"
 	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
-	"github.com/asshidhak/ohaha/app"
-	"github.com/asshidhak/ohaha/api"
 	"os/exec"
 )
 
@@ -31,16 +31,14 @@ func HandleHostList(c *gin.Context) {
 
 
 func HandleCmd(c *gin.Context) {
-	cmd := exec.Command("git --version")
-
-	outbyte, err := cmd.Output()
+	//cmd := exec.Command("sh","-c", "git clone https://gitlab.xgimi.com/devops/tagTest.git")
+	cmd := exec.Command("sh","-c", "sh ")
+	err := cmd.Start()
 	if err != nil {
 		log.Println(err)
-		c.JSON(400,err)
+		c.String(400,"%v",err)
 		return
 	}
-	log.Println(string(outbyte))
-	c.JSON(200, string(outbyte))
-	return
 
+	cmd.Wait()
 }
