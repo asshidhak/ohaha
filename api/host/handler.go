@@ -3,8 +3,8 @@ package host
 import (
 	"github.com/gin-gonic/gin"
 	"net/http"
-	"jintmp/app"
-	"jintmp/api"
+	"github.com/asshidhak/ohaha/app"
+	"github.com/asshidhak/ohaha/api"
 )
 
 type HostReques struct {

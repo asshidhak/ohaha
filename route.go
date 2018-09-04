@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"jintmp/api/host"
+	"github.com/asshidhak/ohaha/api/host"
 )
 
 func initRoute() *gin.Engine{
