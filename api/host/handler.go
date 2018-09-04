@@ -37,8 +37,10 @@ func HandleCmd(c *gin.Context) {
 	if err != nil {
 		log.Println(err)
 		c.JSON(400,nil)
+		return
 	}
 	log.Println(string(outbyte))
 	c.JSON(200, string(outbyte))
+	return
 
 }
